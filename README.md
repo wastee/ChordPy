@@ -3,7 +3,7 @@ A Pyton script that takes ChordPro files (especially from [WorshipTogether.com](
 
 **To download the program for Windows, [go here and click "View Raw"](https://github.com/tkoft/ChordPy/tree/master/dist/ChordPy.exe).**
 
-![Download free ChordPro file from WorshipTogether](https://github.com/tkoft/ChordPy/blob/master/img/tut1.png)
+![Download free ChordPro file from WorshipTogether](https://github.com/tkoft/ChordPy/blob/master/img/tut1.png?raw=true)
 ![First dialog when you run the program](https://github.com/tkoft/ChordPy/blob/master/img/tut2.png)
 ![Pick literally any integer](https://github.com/tkoft/ChordPy/blob/master/img/tut3.png)
 ![Voila!](https://github.com/tkoft/ChordPy/blob/master/img/tut4.png)
