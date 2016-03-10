@@ -37,7 +37,7 @@ if filename != "":
 		for i in range(len(line)):
 			if line[i] == '[':
 				inBracket = True
-				outputChords = outputChords + " "*(i-len(outputChords))
+				outputChords = outputChords + " "*(max(1, len(outputLyrics)-len(outputChords)))
 			elif inBracket and line[i] == ']':
 				inBracket = False
 			elif inBracket and line[i] =='#':
