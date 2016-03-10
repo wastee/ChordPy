@@ -1,5 +1,5 @@
 # ChordPy!
-A Pyton script that takes ChordPro files (especially from [WorshipTogether.com](http://www.worshiptogether.com/)) and converts them to a readable plaintext format.
+A Pyton script that takes ChordPro files (especially from [WorshipTogether.com](http://www.worshiptogether.com/)) and converts them to a readable plaintext format.  Output file is in same location as input.
 
 **To download the program for Windows, [go here and click "View Raw"](https://github.com/tkoft/ChordPy/tree/master/dist/ChordPy.exe).**
 
