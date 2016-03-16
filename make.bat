@@ -1,1 +1,2 @@
-pyinstaller -F --noconsole ChordPy.py
+pyinstaller -F --noconsole ChordPy.py --icon=iconChord.png
+
