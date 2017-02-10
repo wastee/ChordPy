@@ -28,9 +28,9 @@ if filename != "":
 				#print("Invalid transposition.")		
 
 	for trans in transValues:
-		f = open(filename, "r")
+		f = open(filename, "r", encoding='utf-8')
 		outFilename = filename[:len(filename)-4]+"_transposed"+str(trans)+".txt"
-		out = open(outFilename, "w+")
+		out = open(outFilename, "w+", encoding='utf-8')
 
 		for line in f:
 			outputChords = ""
@@ -39,7 +39,7 @@ if filename != "":
 			for i in range(len(line)):
 				if line[i] == '[':
 					inBracket = True
-					outputChords = outputChords + " "*(max(0, len(outputLyrics)-len(outputChords)))
+					outputChords = outputChords + " "*(max(0, len(outputLyrics.encode('gbk'))-len(outputChords.encode('gbk'))))
 				elif inBracket and line[i] == ']':
 					inBracket = False
 				elif inBracket and line[i] =='#':
