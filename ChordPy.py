@@ -17,6 +17,7 @@ if filename != "":
 		transText = simpledialog.askstring("ChordPy", "Transpose (+/- #s, comma separated): ")
 		if transText == "" or transText == None:
 			transText = 0
+			transValues = [0]
 			break	
 		else:
 			try:		
