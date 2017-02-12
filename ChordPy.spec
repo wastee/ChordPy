@@ -4,9 +4,9 @@ block_cipher = None
 
 
 a = Analysis(['ChordPy.py'],
-             pathex=['C:\\Users\\Gary\\Documents\\GitHub\\ChordPy'],
-             binaries=None,
-             datas=None,
+             pathex=['C:\\Users\\Tee\\code\\ChordPy'],
+             binaries=[],
+             datas=[],
              hiddenimports=[],
              hookspath=[],
              runtime_hooks=[],
